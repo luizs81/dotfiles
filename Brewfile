@@ -31,8 +31,11 @@ brew 'trash'
 brew 'wget'
 
 # Development
+brew 'node'
 brew 'python'
 brew 'autoenv'
+brew 'mysql'
+brew services start mysql
 
 # Apps
 cask 'aerial'
