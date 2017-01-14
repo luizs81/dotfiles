@@ -17,10 +17,6 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
-
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
