@@ -3,7 +3,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
+# tap 'homebrew/dupes'
 
 # Install ZSH
 brew 'zsh'
@@ -13,13 +13,13 @@ brew 'zsh-completions'
 brew 'coreutils'
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
+# brew 'findutils'
 
 # Install Bash 4
-brew 'bash'
+# brew 'bash'
 
 # Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
+# brew 'homebrew/dupes/grep'
 
 # Install Binaries
 brew 'awsebcli'
@@ -34,12 +34,13 @@ brew 'wget'
 brew 'node'
 brew 'python'
 brew 'autoenv'
+brew 'vim'
 brew 'mysql'
 brew services start mysql
 
 # Apps
 cask 'aerial'
-cask 'alfred'
+# cask 'alfred'
 cask 'caffeine'
 cask 'firefox'
 cask 'google-chrome'
