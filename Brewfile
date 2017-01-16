@@ -55,7 +55,7 @@ cask 'vlc'
 cask 'evernote'
 cask 'polymail'
 cask 'sourcetree'
-cask 'spetacle'
+cask 'spectacle'
 cask 'visual-studio-code'
 
 # Quicklook
