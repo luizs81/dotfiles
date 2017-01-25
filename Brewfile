@@ -40,7 +40,7 @@ brew services start mysql
 
 # Apps
 cask 'aerial'
-# cask 'alfred'
+cask 'alfred'
 cask 'caffeine'
 cask 'firefox'
 cask 'google-chrome'
@@ -57,6 +57,7 @@ cask 'polymail'
 cask 'sourcetree'
 cask 'spectacle'
 cask 'visual-studio-code'
+cask 'kindle'
 
 # Quicklook
 cask 'qlcolorcode'
