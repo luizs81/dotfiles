@@ -12,15 +12,6 @@ brew 'zsh-completions'
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
 
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-# brew 'findutils'
-
-# Install Bash 4
-# brew 'bash'
-
-# Install more recent versions of some macOS tools
-# brew 'homebrew/dupes/grep'
-
 # Install Binaries
 brew 'awsebcli'
 brew 'git'
@@ -58,6 +49,7 @@ cask 'sourcetree'
 cask 'spectacle'
 cask 'visual-studio-code'
 cask 'kindle'
+cask 'karabiner'
 
 # Quicklook
 cask 'qlcolorcode'
