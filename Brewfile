@@ -8,6 +8,7 @@ tap 'homebrew/bundle'
 # Install ZSH
 brew 'zsh'
 brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -27,7 +28,7 @@ brew 'python'
 brew 'autoenv'
 brew 'vim'
 brew 'mysql'
-brew services start mysql
+# brew services start mysql
 
 # Apps
 cask 'aerial'
@@ -49,7 +50,7 @@ cask 'sourcetree'
 cask 'spectacle'
 cask 'visual-studio-code'
 cask 'kindle'
-cask 'karabiner'
+cask 'karabiner-elements'
 
 # Quicklook
 cask 'qlcolorcode'
