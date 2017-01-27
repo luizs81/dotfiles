@@ -1,5 +1,5 @@
 # Path to your dotfiles installation.
-export DOTFILES=$HOME/.dotfiles
+export DOTFILES=$HOME/dotfiles
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -52,7 +52,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras github)
+plugins=(git git-extras github zsh-syntax-highlighting)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
@@ -73,3 +73,5 @@ export LANG=en_US.UTF-8
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
