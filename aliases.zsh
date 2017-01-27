@@ -1,7 +1,6 @@
 # CLI Shortcuts
 alias reloadcli="source $HOME/.zshrc"
 alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-directories-first"
-alias weather="curl -4 http://wttr.in"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
@@ -22,4 +21,6 @@ alias gitcm="git commit -m"
 alias gitmg="git merge"
 alias gitst="git status"
 alias gitad="git add"
+alias gitck="git checkout"
+alias gitdf="git diff"
 
