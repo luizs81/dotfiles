@@ -53,6 +53,7 @@ cask 'spectacle'
 cask 'visual-studio-code'
 cask 'kindle'
 cask 'karabiner-elements'
+cask 'atom'
 
 # Quicklook
 cask 'qlcolorcode'
