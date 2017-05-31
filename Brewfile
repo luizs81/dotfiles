@@ -25,9 +25,12 @@ brew 'wget'
 # Development
 brew 'node'
 brew 'python'
+brew 'ctags'
 brew 'autoenv'
 brew 'vim'
 brew 'mysql'
+brew 'docker'
+brew 'heroku-toolbelt'
 # brew services start mysql
 
 # Apps
