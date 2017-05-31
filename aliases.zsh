@@ -16,6 +16,7 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 
 # Git
 alias gitpl="git pull"
+alias gitbr="git branch"
 alias gitps="git push"
 alias gitcm="git commit -m"
 alias gitmg="git merge"
@@ -23,4 +24,7 @@ alias gitst="git status"
 alias gitad="git add"
 alias gitck="git checkout"
 alias gitdf="git diff"
+
+# Python
+alias pym="python manage.py"
 
